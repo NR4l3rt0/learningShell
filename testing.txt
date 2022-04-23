@@ -1,0 +1,7 @@
+
+This is created
+from the file itself.
+   It writes until
+it is reached
+ 
+the magic word after the delimiter

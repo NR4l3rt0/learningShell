@@ -1,0 +1,13 @@
+The meaning of especial characters must be considered properly.
+Sometimes it may be useful to escape then. In any case, there
+are different ways of scaping metacharacters:
+
+  - Single quotes -> ALL special characters loose their meaning
+  - Double quotes -> some metacharacters are escaped, but not
+the following: $ , ` , \$ , \' , \" , \\ .
+  - Backslash     -> all characters immediately after this symbol
+looses its meaning
+  - Backsticks    -> anything in between would be interpreted as 
+a command, so it would be executed.
+
+
